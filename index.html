@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Sexy Paint</title>
+</head>
+<body>
+    
+    <!-- Just a simple Heading  -->
+    <header>
+        <a href="index.html">Sexy Paint</a>
+    </header>
+
+    <!-- Tool Box -->
+    <div class="toolPanel">
+
+        <!-- Tools  -->
+        <div class="tool-pallet">
+            <button class="tool" onclick="selectTool('pencil')"><i class="fa fa-pencil"></i></button>
+            <button class="tool" onclick="selectTool('eraser')"><i class="fa fa-eraser"></i></button>
+            <button class="tool" onclick="selectTool('line')"><i class="fa fa-arrows-h"></i></button>
+        </div>
+
+        <!-- Stroke Size  -->
+        <div class="strokeSizeSelect">
+            <label for="strokeSize">Stroke Size :</label>
+            <select id="strokeSize" onchange="strokeChange(this)">
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+                <option value="35">35</option>
+                <option value="40">40</option>
+                <option value="45">45</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+
+        <!-- Color Pallet  -->
+        <div class="color-pallet">
+            <input type="color" id="colorPicker" name="colorPicker" onchange="colorChange(this)" value="#000000">
+        </div>
+    </div>
+
+    <!-- Draw here  -->
+    <div class="screen">
+        <canvas id="board">
+            Your JavaScript Doesn't Work !!
+        </canvas>
+    </div>
+
+
+    <footer>
+        <!-- Looks COOL beech  -->
+        CopyRight &copy; 2021 Sexy Paint  
+    </footer>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* 
+
+Global CSS  
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+:root{
+    --pri-color: rgb(173, 173, 173);
+    --sec-color: rgb(202, 202, 202);
+    --tri-color: rgb(226, 226, 226);
+}
+
+
+
+/* 
+
+    Header Part  
+    
+*/
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: var(--pri-color);
+}
+
+header a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/* 
+
+    Tool Panel
+
+*/
+
+
+
+/* Tool Picker */
+
+.toolPanel{
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    background-color: var(--sec-color);
+    display: flex;
+    align-items: center;
+}
+
+.toolPanel .tool-pallet{
+    background-color: var(--tri-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.toolPanel .tool-pallet .tool{
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.toolPanel .tool-pallet .tool i{
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.toolPanel .tool-pallet .tool i:hover{
+    background-color: var(--pri-color);
+}
+
+
+/* Stroke Size  */
+
+.toolPanel .strokeSizeSelect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+/* Color Pallet  */
+
+.toolPanel .color-pallet{
+    background-color: var(--tri-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+/* 
+
+    Screen Canvas  
+
+*/
+
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen #board{
+    border: .5px solid var(--pri-color);
+}
+
+
+
+
+
+
+/* 
+
+    Footer Section  
+
+*/
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--pri-color);
+    text-align: center;
+    font-weight: bold;
+}
+
