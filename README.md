@@ -1,5 +1,5 @@
 
-# Sexy Paint
+# JS Paint
 
 This is a Paint Web App developed in Vanilla Javascript using HTML5 Canvas. This is a very minimal paint web app, you can draw using pen tool or line tool and erase using eraser tool. Also you can change the size of lines and curves you draw and you can even change colours.
 
