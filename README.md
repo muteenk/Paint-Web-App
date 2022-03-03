@@ -1,7 +1,7 @@
 
 # Sexy Paint
 
-This is Sexy Paint. This is very sexy. Try it and Feel Sexy (^ 3^)
+This is a Paint Web App developed in Vanilla Javascript using HTML5 Canvas. This is a very minimal paint web app, you can draw using pen tool or line tool and erase using eraser tool. Also you can change the size of lines and curves you draw and you can even change colours.
 
 
 ## Features
@@ -10,7 +10,6 @@ This is Sexy Paint. This is very sexy. Try it and Feel Sexy (^ 3^)
 - You have a Free Hand Eraser
 - You can Draw straight line
 - You can Change Color
-- You can Feel Sexy (Most Important)
 
   
 ## Authors
